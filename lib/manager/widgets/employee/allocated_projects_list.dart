@@ -225,26 +225,26 @@ class AllocatedProjectsList extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                // Priority
-                Row(
-                  children: [
-                    Icon(
-                      Icons.flag_rounded,
-                      size: 14,
-                      color: _getPriorityColor(project.priority, isDarkMode),
-                    ),
-                    const SizedBox(width: 4),
-                    Text(
-                      '${project.priority} priority',
-                      style: TextStyle(
-                        fontSize: 11,
-                        color: isDarkMode
-                            ? AppColors.grey400
-                            : AppColors.textSecondary,
-                      ),
-                    ),
-                  ],
-                ),
+                //     // Priority
+                //     Row(
+                //       children: [
+                //         Icon(
+                //           Icons.flag_rounded,
+                //           size: 14,
+                //           color: _getPriorityColor(project.priority, isDarkMode),
+                //         ),
+                //         const SizedBox(width: 4),
+                //         Text(
+                //           '${project.priority} priority',
+                //           style: TextStyle(
+                //             fontSize: 11,
+                //             color: isDarkMode
+                //                 ? AppColors.grey400
+                //                 : AppColors.textSecondary,
+                //           ),
+                //         ),
+                //       ],
+                //     ),
 
                 // Client
                 Row(
